@@ -52,7 +52,7 @@ public class Interaction : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Physics.Raycast(transform.position, transform.forward, out RaycastHit rayHit, reach) == true)        //if raycast hits object
+        if (Physics.Raycast(transform.position, transform.forward, out RaycastHit rayHit, reach) == true && !WaypointMenu.mouseToggled)        //if raycast hits object
         {
             if (rayHit.collider.TryGetComponent(out InteractableObject interactable) == true)                   //if object hit has interactable component
             {

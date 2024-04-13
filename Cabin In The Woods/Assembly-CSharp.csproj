@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\WaypointMenu.cs" />
     <Compile Include="Assets\Scripts\NavigationWaypoint.cs" />
     <Compile Include="Assets\Scripts\DigitalTooltip.cs" />
   </ItemGroup>
