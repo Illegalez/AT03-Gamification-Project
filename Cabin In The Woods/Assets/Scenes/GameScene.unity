@@ -998,13 +998,13 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 1
+  m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &154829805
 CanvasRenderer:
@@ -1280,7 +1280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f088ba225fb5e41a92bd4132c8979e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 45690726089a30546a390290a34588be, type: 3}
+  icon: {fileID: 21300000, guid: 61809118fc8055f499826bf66733d79b, type: 3}
   background: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   interactClip: {fileID: 8300000, guid: d3ba0e7c07ee22e40b75c6fe73cbefc0, type: 3}
 --- !u!114 &253006022
@@ -7361,13 +7361,13 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 1
+  m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &873420718
 CanvasRenderer:
@@ -7528,7 +7528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f088ba225fb5e41a92bd4132c8979e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 45690726089a30546a390290a34588be, type: 3}
+  icon: {fileID: 21300000, guid: 61809118fc8055f499826bf66733d79b, type: 3}
   background: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   interactClip: {fileID: 8300000, guid: d3ba0e7c07ee22e40b75c6fe73cbefc0, type: 3}
 --- !u!114 &885944345
@@ -7674,13 +7674,13 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 1
+  m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1058930189
 CanvasRenderer:
@@ -8735,7 +8735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f088ba225fb5e41a92bd4132c8979e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 45690726089a30546a390290a34588be, type: 3}
+  icon: {fileID: 21300000, guid: 61809118fc8055f499826bf66733d79b, type: 3}
   background: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   interactClip: {fileID: 8300000, guid: d3ba0e7c07ee22e40b75c6fe73cbefc0, type: 3}
 --- !u!114 &1247937241
@@ -9988,7 +9988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f088ba225fb5e41a92bd4132c8979e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 45690726089a30546a390290a34588be, type: 3}
+  icon: {fileID: 21300000, guid: 61809118fc8055f499826bf66733d79b, type: 3}
   background: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   interactClip: {fileID: 8300000, guid: d3ba0e7c07ee22e40b75c6fe73cbefc0, type: 3}
 --- !u!114 &1464718933
@@ -10320,7 +10320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f088ba225fb5e41a92bd4132c8979e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 45690726089a30546a390290a34588be, type: 3}
+  icon: {fileID: 21300000, guid: 61809118fc8055f499826bf66733d79b, type: 3}
   background: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   interactClip: {fileID: 8300000, guid: d3ba0e7c07ee22e40b75c6fe73cbefc0, type: 3}
 --- !u!114 &1600272810
@@ -11523,13 +11523,13 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 1
+  m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1718136300
 CanvasRenderer:
@@ -11599,13 +11599,13 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 1
+  m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1766256115
 CanvasRenderer:
@@ -11786,7 +11786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f088ba225fb5e41a92bd4132c8979e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 45690726089a30546a390290a34588be, type: 3}
+  icon: {fileID: 21300000, guid: 61809118fc8055f499826bf66733d79b, type: 3}
   background: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   interactClip: {fileID: 8300000, guid: d3ba0e7c07ee22e40b75c6fe73cbefc0, type: 3}
 --- !u!114 &1769453336
@@ -12020,13 +12020,13 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: dc22c42117d6b2943b92fc2387f3921d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 1
+  m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1886596292
 CanvasRenderer:
