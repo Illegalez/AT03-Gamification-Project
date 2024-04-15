@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 5770651578f2ff642afecc72bae26d45, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 39b659b7f074def47ab329c3163220e7, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 56d7a12674638fd438618ee6eb59fd2f, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -1560,14 +1560,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypointMenu: {fileID: 1879592501}
   waypointKeybind: {fileID: 1661531614}
-  mouseLook: {fileID: 596709911}
+  player: {fileID: 601762611}
   waypoints:
   - {fileID: 6925209641293398703}
   - {fileID: 1756725218880598636}
   - {fileID: 6522772605932992416}
   - {fileID: 6408772157381829866}
   - {fileID: 1447808141511805048}
-  player: {fileID: 601762611}
   audioClip: {fileID: 8300000, guid: d3ba0e7c07ee22e40b75c6fe73cbefc0, type: 3}
 --- !u!1 &307767830
 GameObject:
@@ -8869,7 +8868,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
