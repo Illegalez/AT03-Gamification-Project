@@ -62,6 +62,8 @@ public class NavigationWaypoint : InteractableObject
             }
             Interaction.Instance.CurrentWaypoint = this;
             Interaction.Instance.transform.parent.position = transform.position;
+            //WaypointMenu.lastWaypoint = this.gameObject;
+            //Debug.Log($"Set lastWaypoint to {WaypointMenu.lastWaypoint.name}");
             if (objectCollider != null)
             {
                 objectCollider.enabled = false;
