@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class WaypointMenu : MonoBehaviour //InteractableObject
+public class WaypointMenu : MonoBehaviour
 {
     [Tooltip("This is the waypoint menu that will open and close")]
     [SerializeField] private GameObject waypointMenu;
@@ -13,6 +13,7 @@ public class WaypointMenu : MonoBehaviour //InteractableObject
     [Tooltip("Put the teleport audio clip in here")]
     [SerializeField] private AudioClip audioClip;
 
+    private AudioSource audioSource;
     private Animator animator;
 
     // Sets the MouseLook to the value of mouseLook
@@ -24,15 +25,22 @@ public class WaypointMenu : MonoBehaviour //InteractableObject
     {
         // Gets the player 1st child and trys to get the mouse look commponet and sets it to mouseLook
         player.transform.GetChild(0).TryGetComponent<MouseLook>(out mouseLook);
+        // Trys to get the Animator of this object and sets it to the value animator
         TryGetComponent<Animator>(out animator);
+        // Trys to get the Audio Source of this object and sets it to the value audioSource
+        TryGetComponent<AudioSource>(out audioSource);
     }
 
     private void Update()
     {
         // Check if the WaypointMenu button has been clicked
         if (Input.GetButtonDown("WaypointMenu"))
+        {
             // Calls the InvertMouse void
             InvertMouse();
+            // Tells the audioSoruce to play a audioClip a single time without setting it the the AudioClip.
+            audioSource.PlayOneShot(audioClip);
+        }
 
         // Checks if 1 on the keyboard was pressed
         if (Input.GetKeyDown(KeyCode.Alpha1))

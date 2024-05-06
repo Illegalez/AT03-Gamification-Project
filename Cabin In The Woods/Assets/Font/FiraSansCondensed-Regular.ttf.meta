@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25ab8487933f69042b5b9d798ac8055c
+guid: 83459f62563394e449dc1881dd15b02b
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Upheaval TT (BRK)
+  - Fira Sans Condensed
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
